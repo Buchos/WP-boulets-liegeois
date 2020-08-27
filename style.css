@@ -1,0 +1,121 @@
+/*
+Theme Name: boulets_liegeois
+Description: first theme made for a restaurant
+Author: Mikye Rinaldo & Arthur Pluymers
+Author URI: https://github.com/Buchos
+Version: 1.0
+*/
+body {
+  background-color: #fff;
+  font-family: arial;
+}
+.text-normal {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.page-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+}
+.page-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 46px;
+  font-weight: 600;
+}
+.main-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+  font-weight: 500;
+}
+.main-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+}
+.main-menu {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.container {
+  max-width: 100%;
+  max-height: 100%;
+  padding: none;
+  margin-bottom: 45vh;
+}
+.banner-top-img {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.page-title {
+  position: absolute;
+  top: 325px;
+  left: 200px;
+  z-index: 2;
+  font-size: 76px;
+}
+.page-subtitle {
+  position: absolute;
+  top: 275px;
+  left: 200px;
+  z-index: 2;
+}
+.white {
+  color: white;
+}
+.hachures-top {
+  position: relative;
+  z-index: 2;
+  transform: rotate(180deg);
+  top: -20px;
+}
+.menu-link {
+  position: absolute;
+  top: 575px;
+  left: 200px;
+  z-index: 2;
+}
+menu-link::before {
+  display: inline-block;
+  content: "";
+  border-top: 2px solid #fff;
+  width: 40px;
+  transform: translateY(-3px);
+  margin-right: 10px;
+}
+
+.icone-flex {
+  margin: 0 auto;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 920px;
+  left: 10vw;
+  z-index: 5;
+}
+
+.trio {
+  text-align: center;
+  margin: 0 15px;
+  padding: 65px 25px 25px 25px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  background: white;
+  -webkit-box-shadow: 12px 12px 49px -27px rgba(186, 182, 186, 1);
+  -moz-box-shadow: 12px 12px 49px -27px rgba(186, 182, 186, 1);
+  box-shadow: 12px 12px 49px -27px rgba(186, 182, 186, 1);
+}
+
+.icone-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icone-texte {
+  font-size: 14px;
+  line-height: 25px;
+}
