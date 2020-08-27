@@ -138,6 +138,7 @@
             menu.classList.remove("open");
         })
     });
+<?php wp_footer() ?>
 </script>
 </body>
 </html>
