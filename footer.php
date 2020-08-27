@@ -116,7 +116,7 @@
         </div>
         <div class="footer-copyright">
             <hr>
-            <p>© 2020 All Rights Reserved. Designed By BananaPizza Studio</p>
+            <p>© 2020 All Rights Reserved. Made with ❤︎ by Donovan & Arthur</p>
         </div>
 
     </div>
